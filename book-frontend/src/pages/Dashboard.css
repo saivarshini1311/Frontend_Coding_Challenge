@@ -1,0 +1,54 @@
+.dashboard {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.add-book-form input {
+  width: 48%;
+  margin: 5px 1%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-book-form button {
+  width: 100%;
+  padding: 10px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.admin-book-list {
+  margin-top: 30px;
+}
+
+.admin-book {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-book button {
+  background: #e74c3c;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-book button:hover {
+  background: #c0392b;
+}

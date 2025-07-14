@@ -1,0 +1,9 @@
+.books-container {
+  padding: 40px;
+  text-align: center;
+}
+.book-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

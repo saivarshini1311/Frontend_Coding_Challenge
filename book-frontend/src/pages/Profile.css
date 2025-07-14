@@ -1,0 +1,31 @@
+.profile {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.profile-form input, .password-change input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.profile-form button, .password-change button {
+  width: 100%;
+  padding: 10px;
+  background: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-form button:hover, .password-change button:hover {
+  background: #1f6392;
+}

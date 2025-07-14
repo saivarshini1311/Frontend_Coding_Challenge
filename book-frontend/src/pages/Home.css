@@ -1,0 +1,44 @@
+.home-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec); /* Soft gradient */
+  position: relative;
+  animation: fadeIn 2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.85); /* Light transparent overlay */
+  padding: 60px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  animation: slideUp 1.5s ease-out;
+}
+
+.content {
+  max-width: 800px;
+  text-align: center;
+}
+
+h1 {
+  color: #222; /* Dark gray */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #444; /* Slightly lighter gray */
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
